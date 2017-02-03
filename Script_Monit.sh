@@ -1,6 +1,7 @@
 #! /bin/bash
-# unset any variable which system may be using
-# clear the screen
+# Recuerde darle permisos de ejecucion antes de procede a iniciar el script. 
+# Para darle permisos de ejecucion use: chmod +x Script_Monit.sh
+# Y para inciarlo: ./Script_Monit.sh
 clear
 unset tecreset os architecture kernelrelease internalip externalip nameserver loadaverage
 while getopts iv name
